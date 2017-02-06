@@ -1,4 +1,5 @@
 body {
+	
     margin:0;
 }
 
@@ -28,17 +29,25 @@ li a {
 h1 {
     font-family: Monotype Corsiva;
     font-size: 60px;
+	text-align: center;
+	margin: 0;
+	margin-top: 50px;
     position: relative;
-    top: 10%;
-    left: 40%;
+    
 }
 
 h2 {
     font-family: Monotype Corsiva;
     position: relative;
+	margin: 0 0 40px 0;
     padding-top: 0px;
-    top: 5%;
-    left: 45%;
+	text-align: center;
+}
+
+h3 {
+    position: relative;
+	top: 10%;
+    left: 40%;
 }
 
 .main {
