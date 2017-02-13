@@ -9,9 +9,9 @@ ul {
     padding: 0;
     overflow: hidden;
     top: 0;
-	  position: fixed;
+	position: fixed;
     width: 100%;
-	  background-color: #333
+	background-color: #333
 }
 
 li {
@@ -29,9 +29,9 @@ li a {
 h1 {
     font-family: Monotype Corsiva;
     font-size: 60px;
-		text-align: center;
-		margin: 0;
-	 	margin-top: 50px;
+	text-align: center;
+	margin: 0;
+	margin-top: 50px;
     position: relative;
 
 }
@@ -39,15 +39,19 @@ h1 {
 h2 {
     font-family: Monotype Corsiva;
     position: relative;
-		margin: 0 0 40px 0;
+	margin: 0 0 40px 0;
     padding-top: 0px;
-		text-align: center;
+	text-align: center;
 }
 
 h3 {
-    position: relative;
-	top: 10%;
+    top: 10%;
     left: 40%;
+}
+h4 {
+	position: relative;
+	text-align: left;
+	margin-top: 60px;
 }
 
 .main {
