@@ -1,6 +1,17 @@
-body {
+@charset "utf-8";
 
+body {
     margin:0;
+    background: url(../FriendlyFarmer/images/img1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+
+#picture {
+    float: left;
+    margin-left: 30%;
+    margin-top: -4%;
 }
 
 ul {
@@ -31,7 +42,7 @@ h1 {
     font-size: 60px;
 	text-align: center;
 	margin: 0;
-	margin-top: 50px;
+	margin-top: 60px;
     position: relative;
 
 }
@@ -39,7 +50,7 @@ h1 {
 h2 {
     font-family: Monotype Corsiva;
     position: relative;
-	margin: 0 0 40px 0;
+	margin-right: 38%;
     padding-top: 0px;
 	text-align: center;
 }
@@ -57,13 +68,13 @@ h4 {
 .main {
     padding: 16px;
     margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
+     /* Used in this example to enable scrolling */
 }
 
 li a:hover:not(.active) {
-    background-color: #4CAF50;  <!-- hovering the mouse over changes the color to green -->
+    background-color: #4CAF50;  /* hovering the mouse over changes the color to green */
 }
 
 .active {
-    background-color: #4CAF50; <!-- active selection stays green -->
+    background-color: #4CAF50; /* active selection stays green */
 }
